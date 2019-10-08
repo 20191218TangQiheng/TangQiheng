@@ -1,0 +1,3 @@
+print(abs(-3.14159))
+print(int(abs(-3.14159)))
+print(float(abs(-3.14159)))
