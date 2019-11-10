@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int n,t,i;
+	scanf("%d",&n);
+	t=n;
+	for(i=0;t>0;i++)
+	  t/=10;
+	t=n;
+	for(;i>0;i--) 
+	{
+	    printf("%d",t%10);
+		t/=10;
+	}
+	return 0;    	
+} 
